@@ -1,12 +1,12 @@
 import React from "react";
-import ParallaxIntro from "../components /ParallaxIntro.jsx"
+import ContactMe from "../components /ContactMe.jsx"
 
 
 // import ProjectsChucks from "../components/ProjectsChucks.jsx";
 // import FooterChucks from "./FooterChucks.jsx"  
 
 
-export default class Home extends React.Component {
+export default class About extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -27,17 +27,8 @@ export default class Home extends React.Component {
       <div>
       <div className="text-center notranslate">
         
-      <ParallaxIntro />
-        {/* <ParallaxChucks />
-      
-        {/* <CarouselExcep
-          carouselLength={3}
-          ImgUrl1={CarouselExcepIMG1}
-          ImgUrl2={CarouselExcepIMG2}
-          ImgUrl3={CarouselExcepIMG3}
-          text1=""
-          text2=""
-        /> */}
+      <ContactMe />
+   
       </div>
       </div>
     );

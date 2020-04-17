@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./views/Home.js";
+import About from "./views/About.js"
+import ContactMe from "./views/ContactMe.js"
 // import Error404Chuck from "./components/Error404Chuck.js";
 
 /**
@@ -31,6 +33,8 @@ export default class Layout extends React.Component {
             <Route exact path="/index.html" component={Home} />
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
+            <Route exact path="/About" component={About} />
+            <Route exact path="/ContactMe" component={ContactMe} />
             {/* <Route exact path="/contact-us" component={ContactviewExcep} />
             <Route exact path="/TopPrice" component={PricingExcep} />
             <Route exact path="/Scheduling" component={SchedulingExcep} />
