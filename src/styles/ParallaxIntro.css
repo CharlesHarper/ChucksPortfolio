@@ -3,7 +3,7 @@
     height: unset !important;
   }
 
-@media (min-width: 50px)and (max-width: 767px) {
+@media (min-width: 10px)and (max-width: 767px) {
 .menu{
   width: 100% !important;
   margin-top: 1.4em;
