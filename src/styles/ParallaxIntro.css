@@ -6,7 +6,7 @@
 @media (min-width: 10px)and (max-width: 767px) {
 .menu{
   width: 100% !important;
-  margin-top: 1.4em;
+  margin-top: 50%;
 }
 .colortextmedia{
   color: #4051B5 !important;
@@ -27,4 +27,8 @@
   
 
 }
+}
+@media (min-width: 320px)and (max-width:568px){
+
+
 }
