@@ -3,4 +3,28 @@
     height: unset !important;
   }
 
+@media (min-width: 50px)and (max-width: 767px) {
+.menu{
+  width: 100% !important;
+  margin-top: 1.4em;
+}
+.colortextmedia{
+  color: #4051B5 !important;
+  font-weight: bold;
+  font-stretch: wider;
+  font-size: x-large;
+  background-color: rgba(211,211,211, 0.3);
+  
+}
 
+/* .navbar-toggler-icon{
+  background-color: #66fcf1 !important;
+  
+} */
+.colortextmedia:hover{
+
+  border: 1px solid #4051B5
+  
+
+}
+}

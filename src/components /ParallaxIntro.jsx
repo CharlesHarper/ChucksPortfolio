@@ -20,6 +20,7 @@ import "../styles/ParallaxIntro.css"
 import mepic from "../images /me.jpeg"
 import AboutModel from "./About"
 
+
 class ParallaxIntro extends React.Component {
   state = {
     collapsed: false
@@ -52,7 +53,7 @@ class ParallaxIntro extends React.Component {
         <Router>
           <div>
             <MDBNavbar
-              color='primary-color'
+            
               style={navStyle}
               dark
               expand='md'
@@ -66,20 +67,20 @@ class ParallaxIntro extends React.Component {
                     <strong className='white-text'>Chuck's Site </strong>
                   </MDBNavLink> */}
                 </MDBNavbarBrand>
-                <MDBNavbarToggler onClick={this.handleTogglerClick} />
+                <MDBNavbarToggler  onClick={this.handleTogglerClick} />
                 <MDBCollapse isOpen={collapsed} navbar>
-                  <MDBNavbarNav >
-                    <MDBNavItem>
-                      <MDBNavLink to='/' > Home   </MDBNavLink>
+                  <MDBNavbarNav className="menu" >
+                    <MDBNavItem className="mediacolor">
+                      <MDBNavLink className="colortextmedia" to='/' > Home   </MDBNavLink>
                     </MDBNavItem>
-                    <MDBNavItem>
-                      <MDBNavLink to='/About'>About</MDBNavLink>
+                    <MDBNavItem className="mediacolor">
+                      <MDBNavLink className="colortextmedia" to='/About'>About</MDBNavLink>
+                    </MDBNavItem >
+                    <MDBNavItem className="mediacolor">
+                      <MDBNavLink  className="colortextmedia" to='/ContactMe'>Contact Me</MDBNavLink>
                     </MDBNavItem>
-                    <MDBNavItem>
-                      <MDBNavLink to='/ContactMe'>Contact Me</MDBNavLink>
-                    </MDBNavItem>
-                    <MDBNavItem>
-                      <MDBNavLink to='#'>Projects</MDBNavLink>
+                    <MDBNavItem className="mediacolor">
+                      <MDBNavLink  className="colortextmedia"to='#'>Projects</MDBNavLink>
                     </MDBNavItem>
                   </MDBNavbarNav>
                   <MDBNavbarNav right>
